@@ -1,0 +1,12 @@
+dubbo:
+  application:
+    name: stu_web
+  registry:
+    address: zookeeper://192.168.47.130:2181
+  consumer:
+    check: false
+spring:
+  thymeleaf:
+    cache: false
+
+
